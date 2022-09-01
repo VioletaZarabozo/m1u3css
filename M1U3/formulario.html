@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Formulario de contacto</title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="formulario.css">
+
+</head>
+<body>
+
+  <div id="content-div">
+
+   
+    <header id="header">
+     <h1>Formulario de contacto</h1>
+    </header>
+
+
+
+  <div class="div-planilla">
+
+   <section>
+     <h3>Completar con sus datos la siguiente planilla:</h3>
+
+      <label class="option-h">Eres hombre?</label>
+    	<input type="checkbox" name="option-m" class="checkbox-text">
+      <br>
+      <br>
+      <label class="option-m">Eres mujer?</label>
+	    <input type="checkbox" name="form-option" class="checkbox-text">
+ <br>
+      <h4 class="select-h4">
+        <label for="selection"><span>Estudios </span></label>
+          <select name="selection" class="select-box">
+             <option>Primario</option>
+             <option>Secundario finalizado</option>
+             <option>Terciario</option>
+             <option>Universitario</option>
+             <option>Doctorado</option>
+          </select>
+      </h4>
+
+     <span>
+      <h4 class="class-h4">Nombre completo:</h4>
+	    <input type="text" name="form-option" class="input-text">
+     </span>
+
+    <h4 class="class-h4">Apellido completo:</h4>
+     <input type="text" name="apellido-pers" class="input-text">
+
+    <h4 class="class-h4">Mail personal:</h4>
+       <input type="email" placeholder="hola@email.com" class="input-text">
+
+    <h4 class="class-h4">Número de contacto:</h4>
+        <input type="text" name="number-phone" placeholder="011 32458865" class="input-text">   
+  
+   </section>
+
+  </div>
+
+  <div class="div-hobbies">
+
+    <article>
+
+     <h3>Por último, para conocerlo/a un poco más!</h3>
+      <h4 class="class-h4">Qué hobbies te gusta realizar?</h4>
+        <ul>
+          <li>
+             <input type="checkbox" name="hobbies[]"  value="danza" id="danza">
+             <label for="danza">Danza, bailar</label>
+          </li>
+          <li>
+             <input type="checkbox" name="hobbies[]"  value="gastronomia" id="gastronomia">
+             <label for="gastronomia">Cocinar, gastronomía</label>
+          </li>
+          <li>
+             <input type="checkbox" name="hobbies[]"  value="videojuegos" id="videojuegos">
+             <label for="videojuegos">Videojuegos</label>
+          </li>
+          <li>
+             <input type="checkbox" name="hobbies[]"  value="gym" id="gym">
+             <label for="gym">Ejercicio físico</label>
+          </li>
+          <li>
+   	         <input type="checkbox" name="hobbies[]"  value="canto" id="canto">
+             <label for="canto">Cantar</label>
+          </li>
+        </ul>
+
+    </article>
+
+  </div>
+  
+  <div class="div-coment">
+
+      <h2>
+	       <label for="comentarios" class="coment-class">Envíe su comentario:</label>
+	      <br><textarea name="comentarios" class="text-area"></textarea>
+      </h2>
+         <br>
+	       <input type="submit" value="Enviar" class="button-enviar">
+         <input type="reset" value="Borrar" class="button-borrar">
+
+  </div>
+
+
+    <footer class="pie-pagina">
+      <b><p>©Copyright reserved 2022.</p></b>
+    </footer>
+
+</div>
+
+</body>
+</html>

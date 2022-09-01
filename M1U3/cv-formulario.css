@@ -1,0 +1,275 @@
+body{
+
+	color: #1A1919;
+	font-family: Heebo, sans-serif;
+	font-size: 14px;
+}
+
+#columns-1-2{
+
+	display: flex;
+	border-radius: 20px;
+	transition: .01s;
+
+
+}
+
+
+.column-1{
+
+	width: 39.7%;
+    background-color: #EEFFC9;
+    border-radius: 20px;
+	justify-content: center;
+	outline: 3px solid lightgreen;
+	transition: .8s;
+}
+
+.column-2{
+
+    width: 60.3%;
+    background-color: #EEFFC9;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+	padding: 20px;
+	outline: 3px solid lightgreen;
+	border-radius: 20px;
+    transition: .7s;
+
+}
+
+
+.encabezado{
+
+	width: 320px;
+	display: flex;
+	align-content: center;
+	justify-content: flex-end;
+	margin-left: 100px;
+	margin-right: 50px;
+	padding-left: 70px;
+	padding-right: 20px;
+	z-index: 10;
+	align-items: center;
+	background-color: #DD81F6;
+	border: 6px ridge lightgreen;
+	border-radius: 15px;
+	transition: .2s;
+}
+
+.encabezado:hover{
+
+	outline: 3px solid #B44BD0;
+}
+
+.datos-subtitulos{
+
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	padding: 5px 10px;
+	border: 3px 3.5px solid lightgreen;
+}
+
+
+.contenido-cv{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: flex-start;
+}
+
+.datos-personales{
+
+	background-color: lightgreen;
+	opacity: 1px;
+	display: flex;
+	align-self: center;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border-bottom: 4px solid #DD81F6;
+	padding: 10px;
+	margin-top: -40px;
+}
+
+
+.texto-dato{
+
+	padding: 10px 15px;
+	border-radius: 15px;
+	transition: .10s;
+}
+
+.texto-dato:hover{
+
+	border-left: 2px solid #DD81F6;
+    border-bottom: 2px solid #DD81F6;
+
+
+}
+
+.titulo-dato{
+
+	background-color: lightgreen;
+    border-top: 3px solid #DD81F6;
+	border-left: 5px solid #DD81F6;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.titulo-dato:hover{
+
+	border-bottom: 2px solid lightblue;
+}
+
+section h3{
+
+	border-bottom: 4px solid #DD81F6;
+	display: block;
+	align-content: center;
+	align-self: center;
+	box-sizing: border-box;
+	padding:15px;
+	margin: 50px 25px;
+	border-radius: 15px;
+	background-color: lightgreen;
+}
+
+h3{
+
+	background-color: lightgreen;
+	margin: 25px;
+	display: flex;
+	padding: 5px;
+	border-radius: 15px;
+	box-sizing: border-box;
+}
+
+.link-form{
+
+    font-size: 16px;
+	color: purple; 
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	flex-direction: column;
+	align-items: center;
+	width: 40%;
+	padding: 3px;
+	outline: 3px solid lightgreen;
+
+}
+
+#formulario-cv{
+
+    font-size: 17px;
+	background-color: #DD81F6;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    box-sizing: border-box;
+    width: 40%;
+    padding: 10px;
+	opacity: .8px;
+	border: 3px solid lightgreen;
+	border-radius: 15px;
+}
+
+a{
+	display: flex;
+	color: purple;
+	background-color: #F7D9FF;
+}
+
+section p{
+
+	border-right: 2px solid lightgreen;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	padding: 10px;
+	padding-right: 0;
+}
+
+.contenido-cv p{
+
+	border-right: 2px solid lightgreen;
+	border-bottom: 2px solid lightgreen;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	padding: 10px;
+	padding-right: 0;
+}
+
+p{
+	font-weight: 100px;
+	background-color: #F7D9FF;
+	border-radius: 15px;
+}
+
+ol{
+    border-right: 2px solid lightgreen;
+    border-bottom: 2px solid #DD81F6;
+	background-color: #F7D9FF;
+	display: block;
+	margin-left: 12px;
+	width: 30%;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+
+ul{
+
+    border-right: 2px solid lightgreen;
+    border-bottom: 2px solid #DD81F6;
+	background-color: #F7D9FF;
+	display: block;
+	margin-left: 12px;
+	width: 30%;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+
+.image-cv{
+	
+	display: inline-flex;
+	z-index: 20;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 180px;
+	height: 240px;
+	padding: 0;
+	transition: .6s;
+	position: relative;
+	top: -80px;
+	left: 1px;
+	border-radius: 20px;
+	border: 6px ridge #F7D9FF;
+
+}
+
+.image-cv:hover{
+
+	border: 10px ridge #F7D9FF;
+	position: relative;
+	outline: 2px solid lightblue;
+}
+
+.pie-pagina{
+
+	background-color: #F7D9FF;
+	margin: 5px;
+	margin-top: 10px;
+	outline: 2px solid lightgreen;
+	border-radius: 20px;
+    align-self: center;
+    display: flex;
+	justify-content: center;
+}
+
